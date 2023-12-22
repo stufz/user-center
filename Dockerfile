@@ -1,4 +1,4 @@
-FROM adoptopenjdk:17-jdk-hotspot as builder
+FROM maven:3.5-jdk-8-alpine as builder
 
 # Copy local code to the container image.
 WORKDIR /app
